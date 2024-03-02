@@ -7,3 +7,5 @@ main = do
     let result = problem1 1000
     putStrLn $ "The sum of all multiples of 3 or 5 below 1000 is: " ++ show result
 
+
+
