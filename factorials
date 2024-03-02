@@ -1,0 +1,10 @@
+-- Example: Pattern matching in function definition
+factorial :: Integer -> Integer
+factorial 0 = 1
+factorial n = n * factorial (n - 1)
+
+-- Main function to demonstrate the result
+main :: IO ()
+main = do
+    putStrLn "Factorial of 5:"
+    print (factorial 5)
